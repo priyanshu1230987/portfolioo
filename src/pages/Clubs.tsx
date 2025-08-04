@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Clock, Star, Users, Calendar, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
-import EventsModal from '../components/EventsModal';
+import EventsModal from '../components/Eventsmodal';
 
 const Clubs = () => {
   const [selectedClub, setSelectedClub] = useState<string | null>(null);
